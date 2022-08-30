@@ -5,12 +5,18 @@ body {
 
 }
 
-.Fx-container {
+.fx-container {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 100px;
 
 
+}
+
+.top-banner {
+    background-image: url(images/donation12.png);
+    margin: 0;
 }
 
 #only {
@@ -25,11 +31,8 @@ body {
     padding: 10px;
 }
 
-.top-banner {
-    background-image: url(images/donation12.png);
-    margin: 0;
-    width: 100%;
-}
+
+
 
 .fx-item {
     margin-top: 50px;
@@ -41,6 +44,7 @@ body {
     border-bottom: 2px solid red;
     width: 600px;
     text-align: center;
+    font-size: 20px;
 }
 
 .side-item {
@@ -48,4 +52,36 @@ body {
     padding: 15px;
     color: gray;
 
+}
+
+.small-container {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+}
+
+.side-by-side {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.side-by-side-item {
+    margin: 8px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#bg-blue {
+    background-color: rgb(125, 125, 192);
+}
+
+#bg-red {
+    background-color: rgb(187, 100, 100);
+}
+
+#bg-green {
+    background-color: rgb(87, 165, 87);
 }
