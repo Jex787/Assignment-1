@@ -85,3 +85,11 @@ body {
 #bg-green {
     background-color: rgb(87, 165, 87);
 }
+
+fieldset {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
