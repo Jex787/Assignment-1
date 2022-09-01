@@ -5,6 +5,10 @@ body {
 
 }
 
+.gray-text {
+    color: gray;
+}
+
 .fx-container {
     text-align: center;
     margin-left: 25%;
@@ -66,6 +70,7 @@ body {
     margin-top: 5px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 100px;
 }
 
 .side-by-side-item {
@@ -92,4 +97,41 @@ fieldset {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: rgb(240, 224, 227);
+    border: none;
+    border-radius: 5px;
+}
+
+#email-bar {
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 0;
+    border: none;
+}
+
+#sub-button {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+footer h2 {
+    font-family: "Brush Script MT";
+    color: tomato
+}
+
+footer h6 {
+    margin-bottom: 0;
+    color: gray;
 }
